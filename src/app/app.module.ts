@@ -11,6 +11,11 @@ import { CalendarDemoComponent } from './calendar-demo/calendar-demo.component';
 
 import { AppComponent } from './app.component';
 import { CalendarHeaderComponent } from './calendar-header/calendar-header.component';
+
+import { registerLocaleData } from '@angular/common';
+import localeIt from '@angular/common/locales/it';
+
+registerLocaleData(localeIt);
 @NgModule({
   declarations: [
     AppComponent,
